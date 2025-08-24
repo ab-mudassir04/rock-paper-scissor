@@ -1,0 +1,30 @@
+
+h1{
+    font-size: 45px;
+    color: red;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+img{
+    cursor: pointer;
+}
+#game-board{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    border: 1px solid black;
+}
+
+#result-div{
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
